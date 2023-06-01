@@ -47,13 +47,14 @@ main{
 }
 
 .areaResultado{
-    width: 24%;
+    position: relative;
+    width: 30%;
     height: 100%;
 }
 
 #txtCod{
     background: #F3F5FC;
-    width: 70%;
+    width: 80%;
     height: 279px;
     border: none;
     color: #0A3871;
@@ -74,7 +75,7 @@ main{
 
 #mensajeEjecutado{
     font-size: 26px;
-    width: 120%;
+    width: 80%;
     height: 316px;
     background: white;
     background-image: url("imagenes/Muneco.png");
@@ -95,6 +96,7 @@ main{
     display: flex;
     margin-top: 18px;
 }
+
 .btnEncriptar {
     background-color: #0A3871;
     border: 1px solid #0A3871;
@@ -103,6 +105,11 @@ main{
     cursor: pointer;
     height: 40px;
     width: 150px;
+}
+
+.btnEncriptar:hover{
+    background: darkorange;
+    transform: scale(1.2);
 }
 
 .btnDesencriptar {
@@ -116,6 +123,11 @@ main{
     width: 150px;
 }
 
+.btnDesencriptar:hover{
+    background: darkgreen;
+    transform: scale(1.2);
+    color: white;
+}
 
 #copiar {
     border: 1px solid #0A3871;
@@ -127,6 +139,28 @@ main{
     width: 150px;
     margin-top: 18px;
 }
+#copiar:hover{
+    background: #0A3871;
+    transform: scale(1.2);
+    color: white;
+}
+
+#pegar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 40px;
+    position: absolute;
+    width: 150px;
+    margin-top: 18px;
+}
+#pegar:hover{
+    background: #0A3871;
+    transform: scale(1.2);
+    color: white;
+}
+
 
 footer{
     text-align: center;
